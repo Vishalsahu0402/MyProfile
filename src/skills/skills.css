@@ -1,0 +1,46 @@
+.bar {
+    width: 15%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: aqua;
+}
+
+.skillhead {
+    font-style: 'Poppins,sans-serif';
+    scroll-behavior: smooth;
+    font-weight: 600 !important;
+    font-size: 36px;
+    scroll-behavior: smooth;
+    color: white;
+}
+.skilltypes
+{
+    font-style: 'Poppins,sans-serif';
+    font-weight: 600 !important;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    background: -webkit-linear-gradient(45deg,#54f5f0, #e4f4f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+.images {
+    height: 60px ;
+    border-radius: 7px;
+    padding: 10px;
+}
+.images img{
+    height: 100% ;
+    width: 100% !important;
+}
+.skillsname
+{
+    font-size: 12px;
+    margin: 0px;
+    padding-top: 5px;
+    color: white;
+    font-style: 'Poppins,sans-serif';
+
+    font-weight: 600 !important;
+    scroll-behavior: smooth;
+}
