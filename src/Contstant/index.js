@@ -1,97 +1,97 @@
-import {
-    html,
-    js,
-    ts,
-    react,
-    nextjs,
-    firebase,
-    nodejs,
-    express,
-    mongodb,
-    redis,
-    graphql,
-    mysql,
-    css,
-    tailwind,
-    frontend,
-    backend,
-    layer,
-    code,
-    figma,
-    rest,
-    leetcode,
-  } from "../assets";
+// import {
+//     html,
+//     js,
+//     ts,
+//     react,
+//     nextjs,
+//     firebase,
+//     nodejs,
+//     express,
+//     mongodb,
+//     redis,
+//     graphql,
+//     mysql,
+//     css,
+//     tailwind,
+//     frontend,
+//     backend,
+//     layer,
+//     code,
+//     figma,
+//     rest,
+//     leetcode,
+//   } from "../assets";
 
 
-export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "projects",
-      title: "Projects",
-    },
-    {
-      id: "skills",
-      title: "Skills",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
+// export const navLinks = [
+//     {
+//       id: "about",
+//       title: "About",
+//     },
+//     {
+//       id: "projects",
+//       title: "Projects",
+//     },
+//     {
+//       id: "skills",
+//       title: "Skills",
+//     },
+//     {
+//       id: "contact",
+//       title: "Contact",
+//     },
+//   ];
   
-  export const features = [
-    {
-      id: "feature-1",
-      icon: code,
-      title: "Front-end Technologies",
-      content:
-        "I specialize in crafting captivating user interfaces using HTML5, CSS3, and JavaScript frameworks like React and Next.js. I ensure that every user interaction is smooth and visually engaging.",
-    },
-    {
-      id: "feature-2",
-      icon: code,
-      title: "Back-end Development",
-      content:
-        "I work with server-side technologies such as Node.js, Express.js and have experience with services like firebase to create efficient and scalable back-end systems.",
-    },
-    {
-      id: "feature-3",
-      icon: code,
-      title: "Continuous Learning",
-      content:
-        "Staying updated with the ever-evolving tech landscape is my commitment. I'm constantly learning and experimenting with new technologies and trends to provide you with cutting-edge solutions.",
-    },
-  ];
+//   export const features = [
+//     {
+//       id: "feature-1",
+//       icon: code,
+//       title: "Front-end Technologies",
+//       content:
+//         "I specialize in crafting captivating user interfaces using HTML5, CSS3, and JavaScript frameworks like React and Next.js. I ensure that every user interaction is smooth and visually engaging.",
+//     },
+//     {
+//       id: "feature-2",
+//       icon: code,
+//       title: "Back-end Development",
+//       content:
+//         "I work with server-side technologies such as Node.js, Express.js and have experience with services like firebase to create efficient and scalable back-end systems.",
+//     },
+//     {
+//       id: "feature-3",
+//       icon: code,
+//       title: "Continuous Learning",
+//       content:
+//         "Staying updated with the ever-evolving tech landscape is my commitment. I'm constantly learning and experimenting with new technologies and trends to provide you with cutting-edge solutions.",
+//     },
+//   ];
   
-  export const feedback = [
-    {
-      id: "feedback-1",
-      content:
-        "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-      name: "Herman Jensen",
-      title: "Founder & Leader",
-      img: "",
-    },
-    {
-      id: "feedback-2",
-      content:
-        "Money makes your life easier. If you're lucky to have it, you're lucky.",
-      name: "Steve Mark",
-      title: "Founder & Leader",
-      img: "",
-    },
-    {
-      id: "feedback-3",
-      content:
-        "It is usually people in the money business, finance, and international trade that are really rich.",
-      name: "Kenn Gallagher",
-      title: "Founder & Leader",
-      img: "",
-    },
-  ];
+//   export const feedback = [
+//     {
+//       id: "feedback-1",
+//       content:
+//         "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+//       name: "Herman Jensen",
+//       title: "Founder & Leader",
+//       img: "",
+//     },
+//     {
+//       id: "feedback-2",
+//       content:
+//         "Money makes your life easier. If you're lucky to have it, you're lucky.",
+//       name: "Steve Mark",
+//       title: "Founder & Leader",
+//       img: "",
+//     },
+//     {
+//       id: "feedback-3",
+//       content:
+//         "It is usually people in the money business, finance, and international trade that are really rich.",
+//       name: "Kenn Gallagher",
+//       title: "Founder & Leader",
+//       img: "",
+//     },
+//   ];
   
   export const socialMedia = [
     {
@@ -125,125 +125,125 @@ export const navLinks = [
     },
   ];
   
-  export const skills = [
-    {
-      id: "s1",
-      title: "Frontend",
-      skillSet: [
-        {
-          id: "1",
-          img: html,
-          title: "HTML",
-          rate: 90,
-        },
-        {
-          id: "2",
-          img: css,
-          title: "CSS",
-          rate: 90,
-        },
-        {
-          id: "3",
-          img: js,
-          title: "JavaScript",
-          rate: 80,
-        },
-        {
-          id: "4",
-          img: ts,
-          title: "TypeScript",
-          rate: 50,
-        },
-        {
-          id: "5",
-          img: react,
-          title: "React",
-          rate: 80,
-        },
-        {
-          id: "6",
-          img: nextjs,
-          title: "Next.js",
-          rate: 60,
-        },
-        {
-          id: "7",
-          img: tailwind,
-          title: "TailwindCSS",
-          rate: 80,
-        },
-      ],
-    },
-    {
-      id: "s2",
-      title: "Backend",
-      skillSet: [
-        {
-          id: "1",
-          img: nodejs,
-          title: "Node.js",
-          rate: 70,
-        },
-        {
-          id: "2",
-          img: express,
-          title: "Express.js",
-          rate: 70,
-        },
-      ],
-    },
-    {
-      id: "s3",
-      title: "Database",
-      skillSet: [
-        {
-          id: "1",
-          img: mongodb,
-          title: "MongoDB",
-          rate: 75,
-        },
-        {
-          id: "2",
-          img: mysql,
-          title: "MySQL",
-          rate: 70,
-        },
-        {
-          id: "3",
-          img: firebase,
-          title: "Firebase",
-          rate: 60,
-        },
-        // {
-        //   id: "4",
-        //   img: redis,
-        //   title: "Redis",
-        //   rate: 30,
-        // },
-      ],
-    },
-    {
-      id: "s4",
-      title: "Others",
-      skillSet: [
-        {
-          id: "1",
-          img: rest,
-          title: "REST API",
-          rate: 70,
-        },
-        // {
-        //   id: "2",
-        //   img: graphql,
-        //   title: "GraphQL",
-        //   rate: 20,
-        // },
-        {
-          id: "2",
-          img: figma,
-          title: "Figma",
-          rate: 75,
-        }
-      ],
-    },
-  ];
+//   export const skills = [
+//     {
+//       id: "s1",
+//       title: "Frontend",
+//       skillSet: [
+//         {
+//           id: "1",
+//           img: html,
+//           title: "HTML",
+//           rate: 90,
+//         },
+//         {
+//           id: "2",
+//           img: css,
+//           title: "CSS",
+//           rate: 90,
+//         },
+//         {
+//           id: "3",
+//           img: js,
+//           title: "JavaScript",
+//           rate: 80,
+//         },
+//         {
+//           id: "4",
+//           img: ts,
+//           title: "TypeScript",
+//           rate: 50,
+//         },
+//         {
+//           id: "5",
+//           img: react,
+//           title: "React",
+//           rate: 80,
+//         },
+//         {
+//           id: "6",
+//           img: nextjs,
+//           title: "Next.js",
+//           rate: 60,
+//         },
+//         {
+//           id: "7",
+//           img: tailwind,
+//           title: "TailwindCSS",
+//           rate: 80,
+//         },
+//       ],
+//     },
+//     {
+//       id: "s2",
+//       title: "Backend",
+//       skillSet: [
+//         {
+//           id: "1",
+//           img: nodejs,
+//           title: "Node.js",
+//           rate: 70,
+//         },
+//         {
+//           id: "2",
+//           img: express,
+//           title: "Express.js",
+//           rate: 70,
+//         },
+//       ],
+//     },
+//     {
+//       id: "s3",
+//       title: "Database",
+//       skillSet: [
+//         {
+//           id: "1",
+//           img: mongodb,
+//           title: "MongoDB",
+//           rate: 75,
+//         },
+//         {
+//           id: "2",
+//           img: mysql,
+//           title: "MySQL",
+//           rate: 70,
+//         },
+//         {
+//           id: "3",
+//           img: firebase,
+//           title: "Firebase",
+//           rate: 60,
+//         },
+//         // {
+//         //   id: "4",
+//         //   img: redis,
+//         //   title: "Redis",
+//         //   rate: 30,
+//         // },
+//       ],
+//     },
+//     {
+//       id: "s4",
+//       title: "Others",
+//       skillSet: [
+//         {
+//           id: "1",
+//           img: rest,
+//           title: "REST API",
+//           rate: 70,
+//         },
+//         // {
+//         //   id: "2",
+//         //   img: graphql,
+//         //   title: "GraphQL",
+//         //   rate: 20,
+//         // },
+//         {
+//           id: "2",
+//           img: figma,
+//           title: "Figma",
+//           rate: 75,
+//         }
+//       ],
+//     },
+//   ];

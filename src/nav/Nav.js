@@ -16,7 +16,7 @@ const Nav = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <img src='/images/menu.svg'/>
+                    <img src='/images/menu.svg' alt=''/>
                 </button>
                 {/* Collapsible wrapper */}
                 <div className="collapse navbar-collapse" id="navbarRightAlignExample">

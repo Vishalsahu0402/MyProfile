@@ -1,7 +1,6 @@
 import React from 'react'
 import './projects.css'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import styles, { layout } from "../styles";
 import '@splidejs/react-splide/css';
 const Projects = () => {
 
@@ -9,7 +8,6 @@ const Projects = () => {
     return (
         <div className='container py-5' id='project'>
             <div className="row">
-
                 <div className='col-md-4'>
                     <p className='bar'></p>
                     <h2 className='projecthead'>Projects</h2>

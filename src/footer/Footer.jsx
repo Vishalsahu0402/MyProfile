@@ -45,7 +45,7 @@ const Footer = () => {
 
                     >
                         © 2023 Copyright :
-                        <a className="text-white" href="">
+                        <a className="text-white" href="/">
                             Created by Vishal Sahu <span className='text-danger'> &#9829;</span>
                         </a>
                     </div>
