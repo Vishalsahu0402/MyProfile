@@ -58,14 +58,14 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1vorder-md-2">
-                                    <img className='projectImage' src="/images/project22.png" alt="card" />
+                                    <img className='projectImage' src="/images/GYC_project.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6">
-                                    <img className='projectImage' src="/images/project22.png" alt="card" />
+                                    <img className='projectImage' src="/images/TakingForward.png" alt="card" />
                                 </div>
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">Taking Forward</h2>
@@ -94,7 +94,7 @@ const Projects = () => {
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6 align-self-center order-2 order-md-1 ">
-                                    <h2 className="heading5 mb-md-4">Mines Weeper</h2>
+                                    <h2 className="heading5 mb-md-4">Minesweeper</h2>
                                     <p className="paragraph" >
                                     Minesweeper: The classic puzzle game that challenges your wit and logic. Safely navigate the grid, avoid hidden mines, and uncover the treasures of strategic thinking.
                                     </p>
@@ -115,14 +115,14 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
-                                    <img className='projectImage' src="/images/project22.png" alt="card" />
+                                    <img className='projectImage' src="/images/minesweeper.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6">
-                                    <img className='projectImage' src="/images/project22.png" alt="card" />
+                                    <img className='projectImage' src="/images/newsapp.png" alt="card" />
                                 </div>
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">News Seeker </h2>
@@ -150,11 +150,9 @@ const Projects = () => {
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6 align-self-center order-2 order-md-1">
-                                    <h2 className="heading5 mb-md-4">Get Your Gollege - college councelling</h2>
+                                    <h2 className="heading5 mb-md-4">FashionFlow - Shopping App</h2>
                                     <p className="paragraph" >
-                                        Scene brings a world of content right to your fingertips, offering
-                                        a rich library of movies, TV shows, and exclusive content, all
-                                        designed to captivate and entertain.
+                                    Your Gateway to Limitless Shopping Bliss. Experience the pinnacle of e-commerce with a world of products at your fingertips. Unleash your desires, explore boundless choices, and elevate your retail experience like never before.
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
@@ -173,7 +171,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
-                                    <img className='projectImage' src="/images/project22.png" alt="card" />
+                                    <img className='projectImage' src="/images/FashionFlow.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>

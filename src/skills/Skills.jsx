@@ -17,27 +17,33 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center ">
                                     <div class="bg-light images" >
                                         <img src="/images/html.png" alt="" />
+                                        <p>90%</p>
+
                                     </div>
                                         <p className='skillsname'>HTML</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/css.png" alt="" />
+                                        <p>90%</p>
+
                                     </div>
                                     <p className='skillsname'>CSS</p>
-
                                 </div>
 
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/js.png" alt="" />
+                                        <p>80%</p>
                                     </div>
                                     <p className='skillsname'>JavaScript</p>
-
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/react.png" alt="" />
+                                        <p>80%</p>
+
+
                                     </div>
                                     <p className='skillsname'>React.js</p>
 
@@ -45,6 +51,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/next.png" alt="" />
+                                        <p>70%</p>
+
                                     </div>
                                     <p className='skillsname'>Next.js</p>
 
@@ -58,6 +66,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/nodejs.png" alt="" />
+                                        <p>70%</p>
+
                                     </div>
                                     <p className='skillsname'>Node.Js</p>
 
@@ -65,6 +75,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/express.png" alt="" />
+                                        <p>70%</p>
+
                                     </div>
                                     <p className='skillsname'>Express.js</p>
 
@@ -80,6 +92,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/mongoodb.png" alt="" />
+                                        <p>70%</p>
+
                                     </div>
                                     <p className='skillsname'>MongoDB</p>
 
@@ -87,6 +101,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/sql.png" alt="" />
+                                        <p>80%</p>
+
                                     </div>
                                     <p className='skillsname'>MySQL</p>
 
@@ -101,6 +117,8 @@ const Skills = () => {
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
                                         <img src="/images/restapi.png" alt="" />
+                                        <p>80%</p>
+
                                     </div>
                                     <p className='skillsname'>REST API</p>
 
