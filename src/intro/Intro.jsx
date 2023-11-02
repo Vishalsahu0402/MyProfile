@@ -2,7 +2,7 @@ import React from 'react'
 import './intro.css'
 const Intro = () => {
     return (
-        <div className='container py-5 '>
+        <div className='container py-3 '>
             <div className='row mb-2'>
                 <div className='col-md-6 align-self-center' >
                     <h2 className='heading '>Hi, I am <br />
@@ -12,7 +12,9 @@ const Intro = () => {
                             </p>
                             <button className='resumeBTN p-md-2 mt-3'>Resume</button>
                             </div>
-                <div className='col-md-6 ' > </div>
+                <div className='col-md-6 ' >
+                    <img className='ProfileImage' src="/images/profile.png" alt="" />
+                     </div>
             </div>
 
         </div>
