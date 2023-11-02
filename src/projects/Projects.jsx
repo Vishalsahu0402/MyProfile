@@ -135,7 +135,7 @@ const Projects = () => {
                                             React.js ,Html,css,bootstrap
                                         </span>
                                     </p>
-                                    <div >
+                                    {/* <div >
                                         <a
                                             href="https://getyourcollege.in/"
                                             className="demoButton items-center gap-3 px-3 py-1 "
@@ -143,7 +143,7 @@ const Projects = () => {
                                             Live
                                             <img src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </section>
                         </SplideSlide>
@@ -162,7 +162,7 @@ const Projects = () => {
                                     </p>
                                     <div >
                                         <a
-                                            href="https://getyourcollege.in/"
+                                            href="https://fashionflow.vercel.app/"
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live

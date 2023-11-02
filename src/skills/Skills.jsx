@@ -33,14 +33,14 @@ const Skills = () => {
 
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/js.png" alt="" />
+                                        <img src="/images/JS.png" alt="" />
                                         <p>80%</p>
                                     </div>
                                     <p className='skillsname'>JavaScript</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/react.png" alt="" />
+                                        <img src="/images/React.png" alt="" />
                                         <p>80%</p>
 
 
@@ -118,7 +118,6 @@ const Skills = () => {
                                     <div class="bg-light images" >
                                         <img src="/images/restapi.png" alt="" />
                                         <p>80%</p>
-
                                     </div>
                                     <p className='skillsname'>REST API</p>
 
