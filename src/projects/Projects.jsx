@@ -3,6 +3,9 @@ import './projects.css'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
 const Projects = () => {
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noreferrer');
+    };
 
 
     return (
@@ -49,8 +52,10 @@ const Projects = () => {
                                     </p>
                                     <div >
                                         <a
-                                            href="https://getyourcollege.in/"
+
+href='/'onClick={() => openInNewTab("https://getyourcollege.in/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
+
                                         >
                                             Live
                                             <img src="/images/share.png" alt="demo" className="align-self-center" />
@@ -70,7 +75,7 @@ const Projects = () => {
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">Taking Forward</h2>
                                     <p className="paragraph" >
-                                    Taking Forward: Where Stocks Become Your Story. Dive into the world of stock market courses with our innovative web app. Unlock the secrets of financial success and trade your way to a brighter future."
+                                        Taking Forward: Where Stocks Become Your Story. Dive into the world of stock market courses with our innovative web app. Unlock the secrets of financial success and trade your way to a brighter future."
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
@@ -80,7 +85,8 @@ const Projects = () => {
                                     </p>
                                     <div >
                                         <a
-                                            href="https://www.takingforward.com/"
+
+href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
@@ -96,7 +102,7 @@ const Projects = () => {
                                 <div className="col-md-6 align-self-center order-2 order-md-1 ">
                                     <h2 className="heading5 mb-md-4">Minesweeper</h2>
                                     <p className="paragraph" >
-                                    Minesweeper: The classic puzzle game that challenges your wit and logic. Safely navigate the grid, avoid hidden mines, and uncover the treasures of strategic thinking.
+                                        Minesweeper: The classic puzzle game that challenges your wit and logic. Safely navigate the grid, avoid hidden mines, and uncover the treasures of strategic thinking.
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
@@ -106,7 +112,8 @@ const Projects = () => {
                                     </p>
                                     <div >
                                         <a
-                                            href="https://mines-xr4w.onrender.com/"
+                                        href='/'
+                                          onClick={() =>openInNewTab("https://mines-xr4w.onrender.com/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
@@ -127,7 +134,7 @@ const Projects = () => {
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">News Seeker </h2>
                                     <p className="paragraph" >
-                                    News Seeker, your ultimate source for curated, real-time news. Stay magnetically connected to the world's stories with our sleek and user-friendly app. Instant updates and diverse categories make sure you're always at the center of what matters most."
+                                        News Seeker, your ultimate source for curated, real-time news. Stay magnetically connected to the world's stories with our sleek and user-friendly app. Instant updates and diverse categories make sure you're always at the center of what matters most."
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
@@ -152,7 +159,7 @@ const Projects = () => {
                                 <div className="col-md-6 align-self-center order-2 order-md-1">
                                     <h2 className="heading5 mb-md-4">FashionFlow - Shopping App</h2>
                                     <p className="paragraph" >
-                                    Your Gateway to Limitless Shopping Bliss. Experience the pinnacle of e-commerce with a world of products at your fingertips. Unleash your desires, explore boundless choices, and elevate your retail experience like never before.
+                                        Your Gateway to Limitless Shopping Bliss. Experience the pinnacle of e-commerce with a world of products at your fingertips. Unleash your desires, explore boundless choices, and elevate your retail experience like never before.
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
@@ -162,7 +169,8 @@ const Projects = () => {
                                     </p>
                                     <div >
                                         <a
-                                            href="https://fashionflow.vercel.app/"
+                                        href='/'
+                                          onClick={() =>openInNewTab("https://fashionflow.vercel.app/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live

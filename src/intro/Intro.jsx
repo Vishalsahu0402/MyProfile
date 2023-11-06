@@ -1,6 +1,9 @@
 import React from 'react'
 import './intro.css'
 const Intro = () => {
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noreferrer');
+      };        
     return (
         <div className='container py-3 '>
             <div className='row mb-2'>
@@ -10,7 +13,8 @@ const Intro = () => {
                         <p className='introDesc'>
                         A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Expressjs / MongoDB and some other cool libraries and frameworks.
                             </p>
-                            <button className='resumeBTN p-md-2 mt-3'>Resume</button>
+                            <button className='resumeBTN p-md-2 mt-3' role="link"
+        onClick={() =>openInNewTab('https://drive.google.com/file/d/16d5WS8db8j-yR42cBGkGZgsDGp3Lounj/view?usp=sharing')}>Resume</button>
                             </div>
                 <div className='col-md-6 ' >
                     <img className='ProfileImage' src="/images/profile.png" alt="" />
