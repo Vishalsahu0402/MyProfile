@@ -142,15 +142,15 @@ href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
                                             React.js ,Html,css,bootstrap
                                         </span>
                                     </p>
-                                    {/* <div >
+                                     <div >
                                         <a
-                                            href="https://getyourcollege.in/"
+                                            href="https://newsseeker.onrender.com/"
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
                                             <img src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </section>
                         </SplideSlide>
