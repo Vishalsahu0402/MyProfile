@@ -27,6 +27,7 @@
 
 .images {
     height: 60px;
+    aspect-ratio:1;
     border-radius: 7px;
     padding: 10px;
     position: relative;
@@ -38,7 +39,7 @@
     padding-top: 30%;
 }
 
-.images:hover p {
+/* .images:hover p {
     display: block;
     background-color: rgba(0, 0, 0, 0.83);
     border-radius: 6px;
@@ -52,7 +53,7 @@
     color: white;
     font-weight: 600;
 }
-
+ */
 .images img {
     height: 100%;
     width: 100% !important;
