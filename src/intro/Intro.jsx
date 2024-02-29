@@ -14,7 +14,7 @@ const Intro = () => {
                         A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Expressjs / MongoDB and some other cool libraries and frameworks.
                             </p>
                             <button className='resumeBTN p-md-2 mt-3' role="link"
-        onClick={() =>openInNewTab('https://drive.google.com/file/d/1knOq_CmGHXwLntKN7P4jeI9LA2pLZonC/view?usp=sharing')}>Resume</button>
+        onClick={() =>openInNewTab('https://drive.google.com/file/d/1z51Lm70QIGE_TupaZNFjqcn6lFlJxQ_A/view?usp=sharing')}>Resume</button>
                             </div>
                 <div className='col-md-6 ' >
                     <img className='ProfileImage' src="/images/profile.png" alt="" />
