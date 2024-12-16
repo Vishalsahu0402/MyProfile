@@ -50,7 +50,7 @@ const Projects = () => {
                                 <div className="col-md-6">
                                     <LazyLoadImage className='projectImage' src="/images/dentalprototype.png" alt="card" />
                                 </div>
-                                <div className="col-md-6 align-self-center pt-4">
+                                <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">NEK Dental & Aesthetic Center</h2>
                                     <p className="paragraph" >
                                         "NEK Dental & Aesthetic Center is a web app with a responsive design, appointment booking, and service listings, built with React.js, Node.js, and MongoDB, showcasing my skills in creating user-friendly solutions."
