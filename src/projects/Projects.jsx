@@ -38,6 +38,36 @@ const Projects = () => {
                         }}
                     >
                         <SplideSlide>
+                            <section className="row mt-3">
+                                <div className="col-md-6">
+                                    <img className='projectImage' src="/images/dentalprototype.png" alt="card" />
+                                </div>
+                                <div className="col-md-6 align-self-center pt-4">
+                                    <h2 className="heading5 mb-md-4">NEK Dental & Aesthetic Center</h2>
+                                    <p className="paragraph" >
+                                        "NEK Dental & Aesthetic Center is a responsive web application featuring an intuitive appointment booking system and detailed service listings. Built with React.js, Node.js, and MongoDB, it showcases my expertise in developing clean, user-friendly, full-stack solutions."
+                                    </p>
+                                    <p className="paragraph">
+                                        Built using{" "}
+                                        <span className="techs">
+                                            Html,css,bootstrap and JavaScript,reactjs.
+                                        </span>
+                                    </p>
+                                    <div >
+                                        <a
+
+                                            href='/' onClick={() => openInNewTab("https://dental-clinic-b5fy.onrender.com/")}
+                                            className="demoButton items-center gap-3 px-3 py-1 "
+                                        >
+                                            Live
+                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </SplideSlide>
+                        <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6 order-2 order-md-1 align-self-center ">
                                     <h2 className="heading5 mb-md-4">Get Your Gollege </h2>
@@ -53,7 +83,7 @@ const Projects = () => {
                                     <div >
                                         <a
 
-href='/'onClick={() => openInNewTab("https://getyourcollege.in/")}
+                                            href='/' onClick={() => openInNewTab("https://getyourcollege.in/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
 
                                         >
@@ -62,7 +92,7 @@ href='/'onClick={() => openInNewTab("https://getyourcollege.in/")}
                                         </a>
                                     </div>
                                 </div>
-                                <div className="col-md-6 order-1vorder-md-2">
+                                <div className="col-md-6 order-1 order-md-2">
                                     <img className='projectImage' src="/images/GYC_project.png" alt="card" />
                                 </div>
                             </section>
@@ -86,7 +116,7 @@ href='/'onClick={() => openInNewTab("https://getyourcollege.in/")}
                                     <div >
                                         <a
 
-href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
+                                            href='/' onClick={() => openInNewTab("https://www.takingforward.com/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
@@ -112,8 +142,8 @@ href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
                                     </p>
                                     <div >
                                         <a
-                                        href='/'
-                                          onClick={() =>openInNewTab("https://mines-xr4w.onrender.com/")}
+                                            href='/'
+                                            onClick={() => openInNewTab("https://mines-xr4w.onrender.com/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
@@ -142,7 +172,7 @@ href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
                                             React.js ,Html,css,bootstrap
                                         </span>
                                     </p>
-                                     <div >
+                                    <div >
                                         <a
                                             href="https://newsseeker.onrender.com/"
                                             className="demoButton items-center gap-3 px-3 py-1 "
@@ -169,8 +199,8 @@ href='/'onClick={() => openInNewTab("https://www.takingforward.com/")}
                                     </p>
                                     <div >
                                         <a
-                                        href='/'
-                                          onClick={() =>openInNewTab("https://fashionflow.vercel.app/")}
+                                            href='/'
+                                            onClick={() => openInNewTab("https://fashionflow.vercel.app/")}
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
