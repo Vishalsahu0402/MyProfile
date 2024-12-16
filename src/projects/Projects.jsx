@@ -2,14 +2,22 @@ import React from 'react'
 import './projects.css'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 const Projects = () => {
     const openInNewTab = (url) => {
         window.open(url, '_blank', 'noreferrer');
     };
 
 
+    
+
     return (
         <div className='container py-5' id='project'>
+
             <div className="row">
                 <div className='col-md-4'>
                     <p className='bar'></p>
@@ -40,7 +48,7 @@ const Projects = () => {
                         <SplideSlide>
                             <section className="row mt-3">
                                 <div className="col-md-6">
-                                    <img className='projectImage' src="/images/dentalprototype.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/dentalprototype.png" alt="card" />
                                 </div>
                                 <div className="col-md-6 align-self-center pt-4">
                                     <h2 className="heading5 mb-md-4">NEK Dental & Aesthetic Center</h2>
@@ -60,7 +68,7 @@ const Projects = () => {
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
@@ -88,19 +96,19 @@ const Projects = () => {
 
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
-                                    <img className='projectImage' src="/images/GYC_project.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/GYC_project.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6">
-                                    <img className='projectImage' src="/images/TakingForward.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/TakingForward.png" alt="card" />
                                 </div>
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">Taking Forward</h2>
@@ -120,7 +128,7 @@ const Projects = () => {
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
@@ -147,19 +155,19 @@ const Projects = () => {
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
-                                    <img className='projectImage' src="/images/minesweeper.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/minesweeper.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>
                         <SplideSlide>
                             <section className="row">
                                 <div className="col-md-6">
-                                    <img className='projectImage' src="/images/newsapp.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/newsapp.png" alt="card" />
                                 </div>
                                 <div className="col-md-6 align-self-center ">
                                     <h2 className="heading5 mb-md-4">News Seeker </h2>
@@ -178,7 +186,7 @@ const Projects = () => {
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
@@ -204,12 +212,12 @@ const Projects = () => {
                                             className="demoButton items-center gap-3 px-3 py-1 "
                                         >
                                             Live
-                                            <img src="/images/share.png" alt="demo" className="align-self-center" />
+                                            <LazyLoadImage src="/images/share.png" alt="demo" className="align-self-center" />
                                         </a>
                                     </div>
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
-                                    <img className='projectImage' src="/images/FashionFlow.png" alt="card" />
+                                    <LazyLoadImage className='projectImage' src="/images/FashionFlow.png" alt="card" />
                                 </div>
                             </section>
                         </SplideSlide>

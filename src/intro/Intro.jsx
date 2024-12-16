@@ -1,5 +1,8 @@
 import React from 'react'
 import './intro.css'
+import {  LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const Intro = () => {
     const openInNewTab = (url) => {
         window.open(url, '_blank', 'noreferrer');
@@ -17,7 +20,7 @@ const Intro = () => {
         onClick={() =>openInNewTab('https://drive.google.com/file/d/1z51Lm70QIGE_TupaZNFjqcn6lFlJxQ_A/view?usp=sharing')}>Resume</button>
                             </div>
                 <div className='col-md-6 ' >
-                    <img className='ProfileImage' src="/images/profile.png" alt="" />
+                    <LazyLoadImage className='ProfileImage' src="/images/profile.png" alt="" />
                      </div>
             </div>
 
