@@ -13,7 +13,7 @@ const Projects = () => {
     };
 
 
-    
+
 
     return (
         <div className='container py-5' id='project'>
@@ -53,7 +53,7 @@ const Projects = () => {
                                 <div className="col-md-6 align-self-center pt-4">
                                     <h2 className="heading5 mb-md-4">NEK Dental & Aesthetic Center</h2>
                                     <p className="paragraph" >
-                                        "NEK Dental & Aesthetic Center is a responsive web application featuring an intuitive appointment booking system and detailed service listings. Built with React.js, Node.js, and MongoDB, it showcases my expertise in developing clean, user-friendly, full-stack solutions."
+                                        "NEK Dental & Aesthetic Center is a web app with a responsive design, appointment booking, and service listings, built with React.js, Node.js, and MongoDB, showcasing my skills in creating user-friendly solutions."
                                     </p>
                                     <p className="paragraph">
                                         Built using{" "}
