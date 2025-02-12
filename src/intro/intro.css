@@ -40,9 +40,9 @@
 }
 
 .creative_type {
-    background: #67e8f9,
-        width: fit-content,
-        fontSize: 35px
+    background: #67e8f9;
+    width: fit-content;
+    font-size: 35px;
 }
 
 
@@ -59,7 +59,7 @@
 
     .heading .Name {
         scroll-behavior: smooth;
-        font-size: 42px !important;
+        font-size: 35px !important;
         background: -webkit-linear-gradient(45deg, #e4f4f4, #209490, #40ffaa, #01fff7, #2bffed);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent !important;
@@ -67,8 +67,8 @@
     }
 
     .creative_type {
-        background: #67e8f9,
-            width: fit-content,
-            fontSize: 25px
+        background: #67e8f9;
+        width: fit-content;
+        font-size: 25px;
     }
 }

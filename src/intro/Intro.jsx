@@ -39,7 +39,7 @@ const Intro = () => {
                             /></span>  <br />
                         <span className='d-flex my-3'>Creative<RotatingText
                             texts={['Coding', 'Thinking', 'Problem-Solving', "Development", "Innovation", "Logic", "Design", "Solutions"]}
-                            mainClassName="px-2 crative_type px-md-3 text-white overflow-hidden py-1 py-md-0 mx-3 d-flex justify-content-center rounded align-items-center"
+                            mainClassName="px-2 creative_type px-md-3 text-white overflow-hidden py-1 py-md-0 mx-3 d-flex justify-content-center rounded align-items-center"
                             
                             staggerFrom={"last"}
                             initial={{ y: "100%" }}
