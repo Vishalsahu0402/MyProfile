@@ -36,3 +36,24 @@
     height: 95%;
     width: 95%;
 } 
+
+
+@media (max-width: 480px) { 
+    /* Styles for mobile phones */
+    .heading {
+        font-style:'Poppins,sans-serif';
+        font-weight: 600;
+        font-size: 28px;
+        scroll-behavior: smooth;
+        color: white;
+    }
+    .heading .Name
+    {
+        scroll-behavior: smooth;
+        font-size: 42px;
+        background: -webkit-linear-gradient(45deg,#e4f4f4, #209490, #40ffaa, #01fff7, #2bffed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent !important;
+        
+    }
+  }
