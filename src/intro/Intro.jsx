@@ -38,9 +38,9 @@ const Intro = () => {
                                 animateOn="view"
                             /></span>  <br />
                         <span className='d-flex my-3'>Creative<RotatingText
-                                texts={['Coding', 'Thinking','Problem-Solving',"Development","Innovation","Logic","Design","Solutions"]}
-                                mainClassName="px-2 px-md-3 text-white overflow-hidden py-1 py-md-0 mx-3 d-flex justify-content-center rounded align-items-center"
-                            style={{ background: "#67e8f9",width:"fit-content",fontSize:"35px" }}
+                            texts={['Coding', 'Thinking', 'Problem-Solving', "Development", "Innovation", "Logic", "Design", "Solutions"]}
+                            mainClassName="px-2 crative_type px-md-3 text-white overflow-hidden py-1 py-md-0 mx-3 d-flex justify-content-center rounded align-items-center"
+                            
                             staggerFrom={"last"}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
@@ -49,7 +49,7 @@ const Intro = () => {
                             splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                             transition={{ type: "spring", damping: 30, stiffness: 400 }}
                             rotationInterval={3000}
-                            />
+                        />
                         </span>
                     </h2>
 
@@ -73,7 +73,7 @@ const Intro = () => {
                     <button className='resumeBTN p-md-2 mt-3' role="link"
                         onClick={() => openInNewTab('https://drive.google.com/file/d/1z51Lm70QIGE_TupaZNFjqcn6lFlJxQ_A/view?usp=sharing')}>Resume</button>
                 </div>
-                <div className='col-md-6 ' >
+                <div className='col-md-6 d-flex justify-content-center align-items-center' >
                     <LazyLoadImage className='ProfileImage' src="/images/profile.png" alt="" />
                 </div>
             </div>
