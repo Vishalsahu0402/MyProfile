@@ -11,19 +11,24 @@ import Workexp from './workexperience/Workexp';
 import Skills from './skills/Skills';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
+import SplashCursor from './blocks/Animations/SplashCursor/SplashCursor';
+// import Demo from './Demo';
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='bgblack px-2'>
+      <SplashCursor />
+      
       <Nav />
+      {/* <Demo/> */}
       <Intro />
-      <Aboutme /> 
-      <Workexp/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
-      <Footer/>
+      <Aboutme />
+      <Workexp />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   </React.StrictMode>
 );

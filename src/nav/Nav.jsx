@@ -1,8 +1,11 @@
 import React from 'react'
 import './nav.css'
+import Aurora from '../blocks/Backgrounds/Aurora/Aurora'
+import Hyperspeed from '../blocks/Backgrounds/Hyperspeed/Hyperspeed'
 const Nav = () => {
     return (
         <div className='container'>
+
             <nav className="navbar navbar-expand-lg navbar-light text-light">
                 {/* Container wrapper */}
                 <div className="container-fluid">
@@ -11,7 +14,7 @@ const Nav = () => {
                         className="navbar-toggler ms-auto"
                         type="button"
                         onClick={() => document.getElementById("myNav").style.width = "100%"}
-                                       >
+                    >
                         <img src='/images/menu.svg' alt='' />
                     </button>
                     {/* Collapsible wrapper */}
@@ -50,7 +53,7 @@ const Nav = () => {
 
             <div id="myNav" className="overlay">
                 <a href="javascript:void(0)" class="closebtn" onClick={() => document.getElementById("myNav").style.width = "0%"}>&times;</a>
-                
+
                 {/* Button to close the overlay navigation */}
                 {/* Overlay content */}
                 <div className="overlay-content">
@@ -60,7 +63,6 @@ const Nav = () => {
                     <a onClick={() => document.getElementById("myNav").style.width = "0%"} href="#contact">Contact</a>
                 </div>
             </div>
-
 
         </div>
     )
