@@ -868,7 +868,7 @@ class InfiniteGridMenu {
         canvas,
       );
       gl.generateMipmap(gl.TEXTURE_2D);
-    });
+    }).catch((error)=>{console.log("==")});
   }
 
   #initDiscInstances(count) {
