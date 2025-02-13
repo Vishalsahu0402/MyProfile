@@ -6,7 +6,6 @@ import DecryptedText from '../blocks/TextAnimations/DecryptedText/DecryptedText'
 import BlurText from '../blocks/TextAnimations/BlurText/BlurText';
 import VariableProximity from '../blocks/TextAnimations/VariableProximity/VariableProximity';
 import RotatingText from '../blocks/TextAnimations/RotatingText/RotatingText';
-import { background } from '@chakra-ui/react';
 const Intro = () => {
     const openInNewTab = (url) => {
         window.open(url, '_blank', 'noreferrer');
@@ -73,6 +72,8 @@ const Intro = () => {
                     <button className='resumeBTN p-md-2 mt-3' role="link"
                         onClick={() => openInNewTab('/Vishal__Resume_.pdf')}>Resume</button>
                 </div>
+
+
                 <div className='col-md-6 d-flex justify-content-center align-items-center' >
                     <LazyLoadImage className='ProfileImage' src="/images/profile.webp" alt="" />
                 </div>
