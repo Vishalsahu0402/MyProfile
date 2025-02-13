@@ -6,9 +6,6 @@ import DecryptedText from '../blocks/TextAnimations/DecryptedText/DecryptedText'
 import BlurText from '../blocks/TextAnimations/BlurText/BlurText';
 import VariableProximity from '../blocks/TextAnimations/VariableProximity/VariableProximity';
 import RotatingText from '../blocks/TextAnimations/RotatingText/RotatingText';
-import { Viewer } from '@react-pdf-viewer/core';
-import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import { background } from '@chakra-ui/react';
 const Intro = () => {
     const openInNewTab = (url) => {
