@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css'
 import { socialMedia } from '../Contstant'
-import Hyperspeed from '../blocks/Backgrounds/Hyperspeed/Hyperspeed'
 const Footer = () => {
     return (
         <>

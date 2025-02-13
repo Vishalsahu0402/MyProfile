@@ -1,5 +1,5 @@
 /*
-	jsrepo 1.35.1
+	jsrepo 1.36.0
 	Installed from https://reactbits.dev/default/
 	13-2-2025
 */

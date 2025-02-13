@@ -16,34 +16,53 @@ const Skills = () => {
                             <div class="row gy-3 pe-md-5">
                                 <div class="col-3 text-danger text-center ">
                                     <div class="bg-light images" >
-                                        <img src="/images/html.png" alt="" />
+                                        <img src="/images/html.webp" alt="" />
                                     </div>
                                         <p className='skillsname'>HTML</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/css.png" alt="" />
+                                        <img src="/images/css.webp" alt="" />
                                          </div>
                                     <p className='skillsname'>CSS</p>
+                                </div>
+                                <div class="col-3 text-danger text-center">
+                                    <div class="bg-light images" >
+                                        <img src="/images/Bootstrap_logo.svg.webp" alt="" />
+                                         </div>
+                                    <p className='skillsname'>Bootstrap</p>
+                                </div>
+                                <div class="col-3 text-danger text-center">
+                                    <div class="bg-light images" >
+                                        <img src="/images/tailwind.webp" alt="" />
+                                         </div>
+                                    <p className='skillsname'>Tailwind</p>
                                 </div>
 
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/JS.png" alt="" />
+                                        <img src="/images/JS.webp" alt="" />
                                 
                                     </div>
                                     <p className='skillsname'>JavaScript</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/React.png" alt="" />
+                                        <img src="/images/React.webp" alt="" />
                                      </div>
                                     <p className='skillsname'>React.js</p>
 
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/next.png" alt="" />
+                                        <img src="/images/ts.webp" alt="" />
+                                
+                                    </div>
+                                    <p className='skillsname'>TypeScript</p>
+                                </div>
+                                <div class="col-3 text-danger text-center">
+                                    <div class="bg-light images" >
+                                        <img src="/images/next.webp" alt="" />
                                      </div>
                                     <p className='skillsname'>Next.js</p>
                                 </div>
@@ -54,13 +73,13 @@ const Skills = () => {
                             <div class="row gy-3 pe-md-5">
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/nodejs.png" alt="" />
+                                        <img src="/images/nodejs.webp" alt="" />
                                     </div>
                                     <p className='skillsname'>Node.Js</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/express.png" alt="" />
+                                        <img src="/images/express.webp" alt="" />
                                     </div>
                                     <p className='skillsname'>Express.js</p>
                                 </div>
@@ -73,15 +92,21 @@ const Skills = () => {
                             <div class="row gy-3 pe-md-5">
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/mongoodb.png" alt="" />
+                                        <img src="/images/mongoodb.webp" alt="" />
                                     </div>
                                     <p className='skillsname'>MongoDB</p>
                                 </div>
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/sql.png" alt="" />
+                                        <img src="/images/sql.webp" alt="" />
                                     </div>
                                     <p className='skillsname'>MySQL</p>
+                                </div>
+                                <div class="col-3 text-danger text-center">
+                                    <div class="bg-light images" >
+                                        <img src="/images/sequalize.webp" alt="" />
+                                    </div>
+                                    <p className='skillsname'>sequalize</p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +115,7 @@ const Skills = () => {
                             <div class="row gy-3 pe-md-5">
                                 <div class="col-3 text-danger text-center">
                                     <div class="bg-light images" >
-                                        <img src="/images/restapi.png" alt="" />
+                                        <img src="/images/restapi.webp" alt="" />
                                     </div>
                                     <p className='skillsname'>REST API</p>
                                 </div>

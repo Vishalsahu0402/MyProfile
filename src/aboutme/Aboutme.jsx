@@ -13,17 +13,17 @@ const Aboutme = () => {
                 </div>
                 <div className='col-md-6 pt-4'>
                     <div className="row teckcard py-2 mb-2">
-                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.png" alt="" /></span></div>
+                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.webp" alt="" /></span></div>
                         <div className="col-10 texts">
                             <h2> Front-end Technologies</h2>
                             <p>I specialize in crafting captivating user interfaces using HTML5, CSS3, and JavaScript frameworks like React and Next.js. I ensure that every user interaction is smooth and visually engaging.</p>
                         </div></div>
                     <div className="row teckcard py-2 mb-2">
-                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.png" alt="" /></span></div>
+                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.webp" alt="" /></span></div>
                         <div className="col-10 texts">
                             <h2>Back-end Development</h2><p>I work with server-side technologies such as Node.js, Express.js and have experience with services like firebase to create efficient and scalable back-end systems.</p></div></div>
                     <div className="row teckcard py-2 mb-2">
-                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.png" alt="" /></span></div>
+                        <div className="col-2 my-md-auto"><span className='bracket'><img src="/images/braceks.webp" alt="" /></span></div>
                         <div className="col-10 texts"><h2>Continuous Learning</h2>
                         <p>Staying updated with the ever-evolving tech landscape is my commitment. I'm constantly learning and experimenting with new technologies and trends to provide you with cutting-edge solutions.</p>
                         </div></div>

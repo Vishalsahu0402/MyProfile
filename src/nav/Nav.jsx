@@ -1,7 +1,5 @@
 import React from 'react'
 import './nav.css'
-import Aurora from '../blocks/Backgrounds/Aurora/Aurora'
-import Hyperspeed from '../blocks/Backgrounds/Hyperspeed/Hyperspeed'
 const Nav = () => {
     return (
         <div className='container'>
