@@ -42,3 +42,13 @@
     background: radial-gradient(#54f5f0d7, #e4f4f4);
     overflow: hidden;
 }
+
+
+@media (max-width: 480px) {
+    .contacthead {
+        font-size: 25px;
+    }
+    .contactdetail span {
+        font-size: 15px;
+    }
+}
