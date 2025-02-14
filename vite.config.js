@@ -6,4 +6,5 @@ export default defineConfig({
   server: {
     port: 5153, // Force Vite to use port 3000
   },
+  assetsInclude: ['**/*.webp'],
 });
