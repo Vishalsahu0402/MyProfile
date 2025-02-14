@@ -6,7 +6,6 @@ import DecryptedText from '../blocks/TextAnimations/DecryptedText/DecryptedText'
 import BlurText from '../blocks/TextAnimations/BlurText/BlurText';
 import VariableProximity from '../blocks/TextAnimations/VariableProximity/VariableProximity';
 import RotatingText from '../blocks/TextAnimations/RotatingText/RotatingText';
-import ProfileImage from "../assets/skills/css.webp"
 const Intro = () => {
     const openInNewTab = (url) => {
         window.open(url, '_blank', 'noreferrer');
@@ -75,8 +74,10 @@ const Intro = () => {
                 </div>
 
 
+
+
                 <div className='col-md-6 d-flex justify-content-center align-items-center' >
-                    <LazyLoadImage className='ProfileImage' src={ProfileImage} alt="" />
+                    <LazyLoadImage className='ProfileImage' src="/images/profile.webp" alt="" />
                 </div>
             </div>
 
