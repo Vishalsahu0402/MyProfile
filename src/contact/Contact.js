@@ -18,7 +18,7 @@ const Contact = () => {
                             <p className='contacthead'>Code That Drives Results!<br /><span>Let's Get Started.</span></p>
                             <div className='container pt-5' >
                                 <div className='row text-danger ms-md-auto' >
-                                    <p className='col-md-3 ms-md-auto contactdetail'>Mail Me at <br /><span>vishalsahu1230@gmail.com</span></p>
+                                    <p className='col-md-3 ms-md-auto contactdetail'>Mail Me at <br /><span>vishalsahu22may13@gmail.com</span></p>
                                     <p className='col-md-3 contactdetail ms-md-5'>or Call me at <br /><span>+91 7987776520</span></p>
                                 </div>
                             </div>
