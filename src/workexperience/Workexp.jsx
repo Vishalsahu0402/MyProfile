@@ -32,7 +32,7 @@ const Workexp = () => {
                                     </ul>
                                 </li>
                                 <li className="timeline-item ">
-                                    <h5 className="fw-bold expheadings">Software Developer trainee - biotechno solutions</h5>
+                                    <h5 className="fw-bold expheadings">Software Developer trainee - bittechno solutions</h5>
                                     <p className="expDates">may 2023 - present</p>
                                     <ul>
                                         <li className="expPoints">developed a <span>E-commerce web application </span> from scrach.</li>
