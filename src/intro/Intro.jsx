@@ -70,7 +70,7 @@ const Intro = () => {
                         />
                     </p>
                     <button className='resumeBTN p-md-2 mt-3' role="link"
-                        onClick={() => openInNewTab('/public/Vishal_Sahu__cv.pdf')}>Resume</button>
+                        onClick={() => openInNewTab('/Vishal_Sahu__cv.pdf')}>Resume</button>
                 </div>
                 <div className='col-md-6 d-flex justify-content-center align-items-center' >
                     <LazyLoadImage className='ProfileImage' src="/images/profile.webp" alt="" />
